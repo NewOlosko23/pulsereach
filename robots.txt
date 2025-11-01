@@ -18,5 +18,5 @@ Disallow: /reset-password/
 Crawl-delay: 1
 
 # Sitemap (update with your actual domain)
-# Sitemap: https://pulsereach.com/sitemap.xml
+# Sitemap: https://pulsereach.onrender.com/sitemap.xml
 
