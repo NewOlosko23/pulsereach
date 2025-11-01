@@ -1,0 +1,22 @@
+# robots.txt for PulseReach
+
+User-agent: *
+Allow: /
+Allow: /signup
+Allow: /login
+Allow: /forgot-password
+
+# Disallow private/dashboard pages
+Disallow: /dashboard/
+Disallow: /admin/
+Disallow: /api/
+
+# Disallow auth-specific pages (reset password tokens)
+Disallow: /reset-password/
+
+# Crawl-delay (optional, adjust if needed)
+Crawl-delay: 1
+
+# Sitemap (update with your actual domain)
+# Sitemap: https://pulsereach.com/sitemap.xml
+
